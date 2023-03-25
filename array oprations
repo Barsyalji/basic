@@ -1,0 +1,94 @@
+package atul;
+
+public class abc {
+
+	public static void main(String[] args) {
+//			int arrs[];
+//		System.out.println("Hello world");
+//		arrs  = new int[] {23,45,67,54,32,12,45};
+//		int temp;
+//		 
+//			for(int i = 0;i <arrs.length;i++) {
+//				for(int j =i+1;j<arrs.length;j++) {
+//					if(arrs[j]<arrs[i])
+//					{Barsyalji/basic 
+//						temp = arrs[i];
+//						arrs[i] = arrs[j];
+//						arrs[j] = temp;
+//					}
+//				}  System.out.println(arrs[i]);
+//				
+//				
+//		}
+			int a[];
+			int j;
+			int i;
+			int flag =0;
+			a = new int[] {3,23,11,7,34,56,76};
+			for( i= 0;i<a.length;i++) {
+			for ( j = 2;j<a[i]-1;j++)
+			{
+				if(a[i]%j==0)
+				{
+					flag  = 1;
+					break;
+				}
+				else {}
+					
+				 
+			}
+	
+			if(flag == 1) {
+				// System.out.println(a[i]+"");
+			}
+			else
+				System.out.print(a[i]);
+			}
+			// sum of array
+//			int sum=0;
+//			for(int k=0;k<arrs.length;k++)
+//			{
+//				sum = sum + arrs[k];
+//			}System.out.println("number is  prime"+sum);
+////			// hollo dimad
+////			for(int l = 1;l<=10;l++) {
+////				for(int m = 10;m>=l;m--)
+////				{
+//					System.out.print(" ");
+//				}
+//				for(int j = 1;j<=l;j++)
+//				{
+//					if(j==1||j==l)
+//					System.out.print(" "+"*");
+//				
+//				else 
+//					System.out.print(" "+" ");
+//				}
+//					
+//			System.out.println();
+//			}	
+//			for(int z = 0; z <= 10; z++ )
+//			{
+//				for(int m = 1;m<=z;m++)
+//				{
+//					if(m==z)
+//						System.out.print(" "+"*");
+//					else
+//					System.out.print(" "); 
+//				}
+//				for(int j = 10;j>=z;j--)
+//				{
+//					if(j==z)
+//					System.out.print(" "+"*");
+//				
+//				else 
+//					System.out.print(" "+" ");
+//				}
+//					
+//			System.out.println();
+//			}
+//			
+	}
+
+}
+
